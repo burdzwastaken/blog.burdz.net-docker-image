@@ -1,4 +1,4 @@
-FROM debian/stretch
+FROM debian:stretch
 
 LABEL Maintainer="Matt Burdan <burdz@burdz.net>"
 
