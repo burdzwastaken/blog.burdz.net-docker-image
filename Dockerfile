@@ -9,6 +9,6 @@ RUN apt update -y && \
       python-dev \
       build-essential
 
-ADD . tmp/
+ADD . /tmp
 
 RUN pip install -r /tmp/requirements.txt
