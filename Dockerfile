@@ -12,3 +12,5 @@ RUN apt update -y && \
 ADD . /tmp
 
 RUN pip install -r /tmp/requirements.txt
+
+ENV PATH "$PATH:~/.local/bin"
